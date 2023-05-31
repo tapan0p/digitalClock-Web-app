@@ -1,15 +1,55 @@
-#demo{
-            
-    color:dodgerblue;
-    font-size: 50px;
-   text-align: center;
-   
-    
+#demo {
+  color: dodgerblue;
+  font-size: 50px;
+  text-align: center;
+  
 }
-body{
-    background-color: black;
+body {
+  background-image: url(RESOURCE/pic1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  opacity: 0.5;
+  margin: 20px;
+  color: white;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  align-items: center;
+  
+}
+.box p{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+}
+.btmDiv{
+    font-size: 20px;
+    background-color: blue;
+}
+.box-4{
+    display: inline-block;
+  width: 100px;
+  height: 100px;
+  
+  opacity: 0.5;
+  margin: 20px;
+  color: white;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  align-items: center;
+}
+.btmDivlast{
+    background-color: green;
+    width: 50px;
 }

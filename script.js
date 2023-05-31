@@ -18,12 +18,17 @@ function showTime(){
     } else {
       ampm = "PM";
     }
-    document.getElementById("demo").innerHTML =
-      h + " : " + m + " : " + s + " " + ampm;
+    if(h>12){
+      h=h-12;
+    }
+    document.getElementById("hr").innerHTML =h;
+    document.getElementById("min").innerHTML =m;
+    document.getElementById("sec").innerHTML =s;
+    document.getElementById("ampm").innerHTML =ampm;
   
    setTimeout(showTime,1000);
   }
-  
-     showTime();
+  showTime();
+     
   
   
